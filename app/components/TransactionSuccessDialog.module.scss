@@ -1,0 +1,64 @@
+.root {
+  position: relative;
+  padding: 35px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #6a7498;
+  border-radius: 10px;
+  gap: 25px;
+  align-items: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: #12121d;
+    border-radius: 10px;
+  }
+
+  & > .logo {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+
+  & > .body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    & > .message {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 15px;
+      font-size: 18px;
+      font-weight: 500;
+      position: relative;
+    }
+
+    & > .actions {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      gap: 15px;
+
+      & > .actionView {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      & > .actionClose {
+        font-size: 16px;
+        font-weight: 500;
+        background: linear-gradient(90deg, #34bcff 0%, hsl(176, 83%, 54%) 100%);
+        border: none;
+      }
+    }
+  }
+}

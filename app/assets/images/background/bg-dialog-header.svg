@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="519" height="109" fill="none"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+
+<defs>
+<filter id="filter0_d_261_167" x="0" y="0" width="559" height="149" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_261_167"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_261_167" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_261_167" x1="0.5" y1="0.6422018348623854" x2="0.5" y2="2.385321100917431">
+<stop stop-color="#383D51" stop-opacity="0.9"/>
+<stop offset="1" stop-color="#12121D" stop-opacity="0.8"/>
+</linearGradient>
+</defs>
+<g class="currentLayer" style=""><title>Layer 1</title><g filter="url(#filter0_d_261_167)" id="svg_1" class="">
+<path d="M519,79 V10 C519,4.4772 514.523,0 509,0 H10 C4.4772,0 0,4.4772 0,10 V79 C0,84.5229 4.4421,89 9.965,89 H150.5 C157.5,89 169,109 174.5,109 H347.5 C356,109 362,89 369,89 H509.03700000000003 C514.56,89 519,84.5229 519,79 z" fill="url(#paint0_linear_261_167)" shape-rendering="crispEdges" id="svg_2"/>
+<path d="M518.5,10 V79 C518.5,84.2491 514.281,88.5 509.03700000000003,88.5 H369 C367.017,88.5 365.199,89.906 363.51,91.791 C361.971,93.51 360.441,95.741 358.901,97.987 C358.734,98.23 358.568,98.474 358.4,98.717 C356.678,101.222 354.937,103.684 353.107,105.522 C351.27,107.367 349.423,108.5 347.5,108.5 H174.5 C173.954,108.5 173.271,108.247 172.446,107.719 C171.631,107.198 170.73,106.441 169.76,105.514 C168.051,103.88 166.178,101.765 164.236,99.571 C163.971,99.271 163.704,98.97 163.436,98.668 C161.22,96.171 158.935,93.647 156.758,91.748 C155.67,90.798 154.595,89.992 153.556,89.421 C152.521,88.852 151.491,88.5 150.5,88.5 H9.965 C4.720600000000001,88.5 0.5,84.249 0.5,79 V10 C0.5,4.753299999999999 4.753299999999999,0.5 10,0.5 H509 C514.247,0.5 518.5,4.753299999999999 518.5,10 z" stroke="#6A7498" shape-rendering="crispEdges" id="svg_3"/>
+</g></g></svg>

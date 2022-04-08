@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="439" height="231" fill="none" style=""><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+
+<defs>
+<filter id="filter0_d_50_40" x="0" y="0" width="479" height="271" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_50_40"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_50_40" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_50_40" x1="0.5" y1="0.35064935064935066" x2="0.5" y2="1.173160173160173">
+<stop stop-color="#383D51" stop-opacity="0.9"/>
+<stop offset="1" stop-color="#12121D" stop-opacity="0.8"/>
+</linearGradient>
+</defs>
+<g class="currentLayer" style=""><title>Layer 1</title><g filter="url(#filter0_d_50_40)" id="svg_1" class="">
+<path d="M0,10 V221 C0,226.523 4.456499999999998,231 9.979299999999999,231 H110.5 C117.5,231 129,211 134.5,211 H307.5 C316,211 322,231 329,231 H429.023 C434.546,231 439,226.564 439,221.041 V131 C439,124 419,121 419,108.5 V9.959800000000001 C419,4.436900000000001 414.523,0 409,0 H10 C4.4772,0 0,4.4771 0,10 z" fill="url(#paint0_linear_50_40)" shape-rendering="crispEdges" id="svg_2"/>
+<path d="M0.5,221 V10 C0.5,4.753299999999999 4.753299999999999,0.5 10,0.5 H409 C414.249,0.5 418.5,4.715700000000002 418.5,9.959800000000001 V108.5 C418.5,115.05199999999999 423.752,119.06 428.731,122.23400000000001 C429.468,122.70400000000001 430.197,123.154 430.907,123.59299999999999 C432.64,124.66300000000001 434.255,125.661 435.568,126.68299999999999 C437.429,128.134 438.5,129.503 438.5,131 V221.041 C438.5,226.287 434.271,230.5 429.023,230.5 H329 C327.483,230.5 325.926,229.406 324.255,227.541 C322.762,225.874 321.271,223.7 319.722,221.441 C319.557,221.2 319.391,220.959 319.225,220.717 C317.509,218.222 315.719,215.684 313.815,213.772 C311.918,211.867 309.827,210.5 307.5,210.5 H134.5 C133.671,210.5 132.792,210.872 131.907,211.438 C131.014,212.01 130.059,212.816 129.069,213.764 C127.327,215.428 125.424,217.579 123.487,219.767 C123.221,220.067 122.95500000000001,220.368 122.689,220.668 C120.46700000000001,223.171 118.22200000000001,225.647 116.101,227.498 C115.041,228.423 114.02699999999999,229.179 113.07499999999999,229.702 C112.12,230.227 111.25899999999999,230.5 110.5,230.5 H9.979299999999999 C4.734000000000002,230.5 0.5,226.248 0.5,221 z" stroke="#6A7498" shape-rendering="crispEdges" id="svg_3"/>
+</g></g></svg>

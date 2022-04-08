@@ -1,0 +1,89 @@
+.error {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: #e30000;
+}
+.invisible {
+  visibility: hidden;
+}
+
+.root {  
+  background: url(../assets/images/background/bg-dialog-body.svg);
+  .wrapper {
+    .label {
+      font-family: Karla;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 26px;
+      color: #ffffff;
+    }
+
+    .input {
+      background: rgba(106, 116, 152, 0.5);
+      opacity: 0.5;
+      border: 1px solid #6a7498;
+      border-radius: 10px;
+      width: 100%;
+      height: 50px;
+      padding: 12px 20px;
+      color: #fff;
+      font-family: Karla;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+
+      &::placeholder {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #6d6f7d;
+      }
+    }
+    .inputError {
+      font-family: Karla;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      color: #e30000;
+    }
+
+    .actionCheck {
+      width: 220px;
+      height: 40px;
+      background: linear-gradient(90deg, #34bcff 0%, #28ebdd 100%);
+      border-radius: 10px;
+      border: none;
+      font-family: Karla;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+
+      &.disabled {
+        background: #6a7498;
+        border: 0.8px solid #97a0be;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #97a0be;
+      }
+    }
+  }
+}

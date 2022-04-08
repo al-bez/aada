@@ -1,0 +1,25 @@
+.root {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 25px 15px 20px 15px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    opacity: 0.5;
+
+    border-radius: 10px;
+
+    background: #12121d;
+  }
+}
+  

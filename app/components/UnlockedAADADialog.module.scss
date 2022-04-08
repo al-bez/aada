@@ -1,0 +1,57 @@
+.textDisabled {
+  color: #6a7395 !important;
+}
+
+.root {
+  width: 518px;
+  height: 667px !important;
+  background: url('../assets/images/Rectangle\ 5.png');
+
+  .wrapper {
+    .actionClaimAada {
+      width: 220px;
+      height: 40px;
+      background: linear-gradient(90deg, #34bcff 0%, #28ebdd 100%);
+      border-radius: 10px;
+      border: none;
+      font-family: Karla;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    .row {
+      font-family: Karla;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 26px;
+      border-bottom: 1px solid #6a7395;
+      & > .colLeft {
+        font-weight: normal;
+        color: #ffffff;
+      }
+      & > .colRight {
+        font-weight: 500;
+        color: #28ebdd;
+      }
+    }
+    .rowSummary {
+      font-family: Karla;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 26px;
+      font-weight: bold;
+
+      & > .colSummaryLeft {
+        color: #ffffff;
+      }
+      & > .colSummaryRight {
+        color: #28ebdd;
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  & > .head {
+    padding-left: 75px;
+    padding-bottom: 3px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+
+    & > div > .sortArrow {
+      cursor: pointer;
+      &.rotate {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  & > .body {
+    // height: 650px;
+    max-height: 70vh;
+    &::-webkit-scrollbar {
+      width: 0.3125rem;
+      position: absolute;
+      width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+      border-radius: 3px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #475166;
+      border-radius: 3px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 10px;
+    padding-right: 5px;
+
+    & > .emptyMessage {
+      font-family: 'Rajdhani';
+      font-size: 2.5em;
+    }
+
+    & > .row {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      position: relative;
+      padding-left: 75px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background: linear-gradient(
+          180deg,
+          rgba(106, 116, 152, 0.6) 0%,
+          #383d51 100%
+        );
+        opacity: 0.5;
+        border: 1px solid #6a7498;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+
+      & > .cell {
+        font-family: 'Rajdhani';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffffff;
+        &.highlight {
+          color: #34bcff;
+        }
+
+        position: relative;
+        display: flex;
+        align-items: center;
+        &.lockedAmount {
+          & > .aadaLogoWrapper {
+            display: flex;
+            box-shadow: 0px 0px 6px #34bcff;
+            border-radius: 50%;
+            background-color: #ffffff;
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+
+            & > .aadaLogo {
+              margin: auto;
+            }
+          }
+        }
+
+        & > .cellAction {
+          border-radius: 10px;
+          border: 2px solid #34bcff;
+          background: transparent;
+          font-family: 'Karla';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          text-align: center;
+          text-transform: uppercase;
+          width: 124px;
+          height: 40px;
+          color: #ffffff;
+
+          &:hover {
+            background: linear-gradient(90deg, #34bcff 0%, #28ebdd 100%);
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}

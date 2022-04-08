@@ -1,0 +1,35 @@
+.root {  
+  width: fit-content;
+  &.rootMd {
+    height: 100%;
+  }
+
+  .wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    .text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .textCopy {
+      text-align: center;
+      padding: 0 3px;
+      background: transparent;
+      color: #fff;
+      border: none;
+      font-family: courier;
+      cursor: pointer;
+      font-weight: 600;
+      @media (max-width: 600px) {
+        line-break: anywhere;
+      }
+    }
+  }
+}
