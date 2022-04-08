@@ -25,32 +25,7 @@ export const WaitingForLender = ({ status, price, fee, collateral }) => {
     </>
   )
 }
-// {status}
-// const outlineStatus = {
-//   "Waiting for finding":'orage'
-// }
-// outline: outlineStatus[status] || "none"
-// descriprions = [{title:string,value:string}] 
 
-// const action ={
-//   'debt':{title:'Repay',action:OnCansel},
-//   "Loan":
-// }
-// const Card = ({data}) =>(
-//   <Description />
-//   <Actions />
-// )
-/*
-const Actions = ({status}) =>{
-  <Grid container>
-
-  </Grid>
-}
-
-onCancel = id =>{
-  console.log(`cansel ${id}` )
-}
-*/
 export const WaitingForBorrower = ({ status, price, fee, collateral }) => {
   const handleLend = () => {}
 
